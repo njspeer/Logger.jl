@@ -1,20 +1,5 @@
+x = 123, and y = abc.xyz :
 ┌ Info: Random Info xXx
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:29
+└ @ Main /home/nathan/Documents/Julia/Logging/msg2stream.jl:35
 ┌ Warning: Random Warning
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:30
-┌ Info: Some more ransome variables
-│   A = [1 1 1 1; 1 1 1 1; 1 1 1 1; 1 1 1 1]
-│   s = 100.0
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:35
-┌ Info: Some random info xXxXxXx
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:39
-┌ Info: x = 1
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:45
-┌ Info: x = [1, 2]
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:45
-┌ LogLevel(123): Log message with log level 123.
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:55
-┌ LogLevel(1234): Log message with log level 1234.
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:56
-┌ LogLevel(2345): Log message with log level 2345.
-└ @ Main /home/nathan/Documents/Julia/Logging/scratch.jl:57
+└ @ Main /home/nathan/Documents/Julia/Logging/msg2stream.jl:36

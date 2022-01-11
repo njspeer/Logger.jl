@@ -1,6 +1,10 @@
 #= 
   Example of how to use Julia's Logger
 
+  send warnings to a buffer first
+  then, check the buffer.
+  if there is anything in the buffer
+
   Level	        Alias	                  Comment
   -1000001      Logging.BelowMinLevel	  (below) lowest possible level
   -1000	        Logging.Debug	          log level for @debug messages
@@ -12,6 +16,12 @@
 
 # Load the logging module
 using Logging
+
+# file name that we will write to
+logfile = "logfile.txt"
+
+# Open file for writing
+fio = open(logfile, "w")
 
 iostream = IOBuffer()
 
@@ -28,3 +38,11 @@ global_logger(logger)
 
 str = String(take!(iostream))
 
+if length(str) > 0
+  x = 123
+  y = "abc.xyz"
+  write(fio, "x = $x, and y = $y :\n")
+  write(fio, str)
+end
+
+close(fio)

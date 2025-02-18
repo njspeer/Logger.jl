@@ -1,5 +1,5 @@
 x = 123, and y = abc.xyz :
 ┌ Info: Random Info xXx
-└ @ Main /home/nathan/Documents/Julia/Logging/msg2stream.jl:35
+└ @ Main REPL[9]:1
 ┌ Warning: Random Warning
-└ @ Main /home/nathan/Documents/Julia/Logging/msg2stream.jl:36
+└ @ Main REPL[10]:1
